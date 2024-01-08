@@ -8,4 +8,6 @@ edition = "2021"
 [dependencies]
 aws-config = "1.1.1"
 aws-sdk-s3 = "1.11.0"
+crossterm = "0.27.0"
+ratatui = "0.25.0"
 tokio = { version = "1.35.1", features = ["full"] }
